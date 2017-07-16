@@ -1,0 +1,4 @@
+name: BungeeLogFilter
+main: com.gmail.tracebachi.BungeeLogFilter.BungeeLogFilterPlugin
+version: ${project.version}
+author: GeeItsZee

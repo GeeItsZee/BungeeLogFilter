@@ -1,0 +1,18 @@
+###############################################################################
+# BungeeLogFilter Configuration File
+###############################################################################
+
+# Should ping logs be filtered out?
+# Pings logs are formatted like "[/192.16.0.1] <-> InitialHandler"
+FilterPing: True
+
+# Should join logs be filtered out?
+# Joins logs are formatted like "[Notch] <-> InitialHandler"
+FilterJoin: True
+
+# What RegExs can a log message match in order to be filtered out?
+# Sometimes what is seen on the logs is not the same as the message in the
+# LogRecord. For example, the message in the LogRecord might be "{0} did something",
+# but in the console, it is logged as "Notch did something". In order for this
+# filter to work, you want a RegEx that matches "{0} did something".
+RegexFilters: []
